@@ -64,7 +64,9 @@ export function initWelcomePage (params){
             }
         }
         
-
+        .hand{
+            margin-top: 10px
+        }
 
         @media (min-width: 769px) {
             .hand{
