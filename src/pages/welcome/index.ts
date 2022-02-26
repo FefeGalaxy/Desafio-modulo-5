@@ -40,7 +40,7 @@ export function initWelcomePage (params){
             justify-content: center;
             padding:40px;
             max-width:317px;
-            margin-top: 100px;
+            margin-top: 10px;
             color: #FAFAFA
 
         }
@@ -64,9 +64,7 @@ export function initWelcomePage (params){
             }
         }
         
-        .hand{
-            margin-top: 10px
-        }
+
 
         @media (min-width: 769px) {
             .hand{
