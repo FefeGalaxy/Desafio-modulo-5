@@ -40,7 +40,7 @@ export function initWelcomePage (params){
             justify-content: center;
             padding:40px;
             max-width:317px;
-            margin-top: 10px;
+            margin-top: -50px;
             color: #FAFAFA
 
         }
