@@ -1,5 +1,6 @@
 const memeGanar = require("url:../../images/ganaste.jpg")
 
+
 const memePerdi = require("url:../../images/perdiste.jpg")
 
 export function initStar (){
@@ -36,9 +37,11 @@ export function initStar (){
             shadow.appendChild(style)
 
             var memes = ""
-            if (variant == "gane"){
+            if (variant == "win"){
                 memes = memeGanar
-            }else{memes = memePerdi}
+            }else if (variant == "loose"){
+                memes = memePerdi
+            }
 
             var div = document.createElement("div")
             div.innerHTML = `<div class="contenedor">

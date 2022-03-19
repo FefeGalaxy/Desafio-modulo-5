@@ -7,7 +7,6 @@ export function initWelcomePage (params){
         }
         body{
             margin:0;
-        
         }
         .container{
             display: flex;

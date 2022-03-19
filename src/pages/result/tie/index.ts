@@ -57,6 +57,9 @@ export function initTie (params){
                 .container{
                     width:404px;
                 }}
+
+
+
             .h3-container{
                 display:flex;
                 width: 100%;
@@ -108,7 +111,7 @@ export function initTie (params){
     `
     div.innerHTML = `
     <div class="center">
-    <component-text variant="tie">Empate</component-text>
+    <text-comp variant="tie">Empate</text-comp>
     <div class="desktop"><div class="container">
             <h2 class="h2">Score<h2>
             <div class="h3-container">

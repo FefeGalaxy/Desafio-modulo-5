@@ -108,7 +108,7 @@ export function initLoose (params){
     `
     div.innerHTML = `
     <div class="center">
-    <component-meme>perdiste</component-meme>
+    <component-meme variant="loose">perdiste</component-meme>
     <div class="desktop"><div class="container">
             <h2 class="h2">Score<h2>
             <div class="h3-container">

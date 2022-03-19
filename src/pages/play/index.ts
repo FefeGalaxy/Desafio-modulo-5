@@ -247,7 +247,7 @@ export function initPlay(params) {
 
 
 
-//no se porque solo me muestra la imagen de cuando pierdo, incluso cuando gano
+// solo me muestra la imagen de cuando pierdo, incluso cuando gano
 
 
 

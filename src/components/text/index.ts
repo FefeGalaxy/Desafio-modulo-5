@@ -15,10 +15,29 @@ export function initText (){
                     box-sizing: border-box;
                 }
 
+                
+                .title{
+                    font-size: 80px;
+                    font-weight: bold;
+                    font-family: 'Odibee Sans', cursive;;
+                    color:#009048;
+                    text-align:center;
+                }
+                
                 .body{
                     font-size: 40px;
                     font-family: 'Odibee Sans', cursive;;
                     text-align:center;
+                }
+
+                .tie{
+                    font-size: 90px;
+                    font-weight: bold;
+                    font-family: 'Odibee Sans', cursive;;
+                    color:white;
+                    text-align:center;
+                    margin-bottom:20px;
+                    text-decoration: underline;    
                 }
             `;
             const shadow = this.attachShadow({mode:"open"});
