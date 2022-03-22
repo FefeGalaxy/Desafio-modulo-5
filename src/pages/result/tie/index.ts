@@ -111,7 +111,7 @@ export function initTie (params){
     `
     div.innerHTML = `
     <div class="center">
-    <text-comp variant="tie">Empate</text-comp>
+    <component-meme variant="tie">Empate</component-meme>
     <div class="desktop"><div class="container">
             <h2 class="h2">Score<h2>
             <div class="h3-container">
